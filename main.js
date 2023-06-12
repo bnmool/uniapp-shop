@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-
-// #ifndef VUE3
-import Vue from 'vue'
-import App from './App'
-
-Vue.config.productionTip = false
-
-App.mpType = 'app'
-
-const app = new Vue({
-    ...App
-=======
 // 导入网络请求的包
 import {
   $http
@@ -43,19 +30,14 @@ Vue.config.productionTip = false
 App.mpType = 'app'
 const app = new Vue({
   ...App
->>>>>>> 69fe459 (首页开发)
 })
 app.$mount()
 // #endif
 
 // #ifdef VUE3
-<<<<<<< HEAD
-import { createSSRApp } from 'vue'
-=======
 import {
   createSSRApp
 } from 'vue'
->>>>>>> 69fe459 (首页开发)
 import App from './App.vue'
 export function createApp() {
   const app = createSSRApp(App)
